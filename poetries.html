@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    /* width */
+    /* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+    /* Track */
+    /* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+    /* Handle */
+    /* ::-webkit-scrollbar-thumb {
+  background: #888;
+} */
+
+    /* Handle on hover */
+    /* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .column1 {
+      float: left;
+      width: 75%;
+      padding: 0 10px;
+      margin-top: 4em;
+    }
+
+
+    .column2 {
+      float: right;
+      width: 75%;
+      padding: 0 10px;
+      margin-top: 4em;
+      /* position: relative;
+  top: 40em; */
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+      margin: 0 -5px;
+      background-color: transparent;
+
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+      .column1 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+
+      .column2 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+      background-color: white;
+      background: rgba(0, 0, 0, .5);
+      color: rgb(255, 255, 255);
+      border-radius: 100px;
+    }
+
+    #cardfirst {
+      margin-left: 5%;
+      float: left;
+      height: fit-content;
+      width: 60%;
+    }
+
+    #cardlast {
+      margin-right: 5%;
+      float: right;
+      height: fit-content;
+      width: 60%;
+
+    }
+
+    .background {
+      height: 100vh;
+      width: 100%;
+
+      background-image: url(/images/Snapchat-1361390682_2.jpg);
+      background-position: center center;
+      background-size: 100% 100vh;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      z-index: -100;
+      position: fixed;
+      top: 3.5em;
+
+
+      /* background-attachment: fixed; */
+    }
+
+    .text {
+      position: absolute;
+      bottom: 10em;
+    }
+
+    .text h3 {
+      font-family: 'Pacifico', cursive;
+      font-size: 4em;
+      margin-bottom: 0;
+    }
+
+    .text h5 {
+      font-family: 'Caveat', cursive;
+      font-size: 2.5em;
+      text-align: right;
+      margin-top: 0;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .background {
+        height: 100vh;
+        width: 100%;
+        background-image: url(/images/backgroundpicmobilereal.jpg);
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 3em;
+        background-size: 100% 100vh;
+      }
+
+      .card {
+        background: rgba(255, 255, 255, 0.75);
+        color: black;
+      }
+
+      .column1 {
+        float: left;
+        width: 85%;
+        padding: 0 10px;
+        margin-top: 4em;
+      }
+
+
+      .column2 {
+        float: right;
+        width: 85%;
+        padding: 0 10px;
+        margin-top: 4em;
+        /* position: relative;
+  top: 40em; */
+      }
+
+
+      #cardfirst {
+        margin-left: 10%;
+        float: left;
+        height: fit-content;
+        width: 60%;
+      }
+
+      #cardlast {
+        margin-right: 10%;
+        float: right;
+        height: fit-content;
+        width: 60%;
+
+      }
+    }
+
+    .temp {
+      height: 99vh;
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="ayush">
+    <header>
+      <nav class="navbar" style="position: fixed;">
+        <ul>
+          <li class="line"><a href="/chetanaprasad_17846591372835799/message_1.html">Memories</a></li>
+          <li class="line"><a href="#" #>Pics</a></li>
+          <li class="line"><a href="/poetries.html" #>Poetries</a></li>
+          <li class="line"><a href="/" #>Home</a></li>
+        </ul>
+        <img src="/images/cherrylogo1.png" alt="LOVE" id="logo">
+      </nav>
+    </header>
+  </div>
+
+  <div class="background">
+
+  </div>
+  <div class="text">
+    <h3>The Ocean Of Feelings</h3>
+    <h5>- Be ready to be drown !</h5>
+  </div>
+
+  <div class="row">
+    <div class="temp">
+
+    </div>
+    <div class="column1">
+      <div class="card" id="cardfirst">
+        <p>Suno meri jaan, ek baat tumhe batani h<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br><br><br><br>Jis aankhon se
+          padh rhi ho, uski Raaz tumhe sunani h<img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br><br><br><br><br>Ye zulfon mei
+          kho jaane ki Raaz tumhe batani h<img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br><br><br><br><br>Tum Milo to
+          sahi, tumhaari har baat hume Jaan ni h<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br><br><br><br>Tumhaare saath
+          bageeche mei ghumne ki khwaayish bhi jataani h...&nbsp;<img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br><br><br><br><br><br>Chhup chhup
+          ke dekhne waali Raaz tumse chhupani h<img alt="👀"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f440/32.png"><br><br><br><br><br><br><br>Aur kabhi Naa
+          bolne waali baat tumhe batani h..<img alt="🙃"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f643/32.png"><br><br><br><br><br><br><br>Tum Milo to
+          sahi, tumhaari har baat hume Jaan ni h<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br><br><br><br>Tumhaari udaasi
+          hume dekhi nahi jaati, ye gehri baat pr tumhe gaur dilani h<img alt="😅"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f605/32.png"><br><br><br><br><br>Tum jab muskuraati ho to
+          maano saari murjhaaye ful khil uthte h, ye baat tumhe batani h<img alt="💐"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f490/32.png"><br><br><br><br>Pta nhi kyu itna kuch likh
+          gye hum, ye baat tumse puchne ki tamanna Zahir karni h<img alt="🤔"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f914/32.png"><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column2">
+      <div class="card" id="cardlast">
+        <p><br>
+        <h3>20 sept</h3><br><br>Ek baat puchu kya, bura to nahi maanogi na ...<img alt="😓"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f613/32.png"><br><br>Pareshaan rehta h ye dil, usse
+        samjhaogi na...<img alt="😌" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60c/32.png"><img alt="🫣"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><br><br><br>apne komal baahon mei, mujhe
+        vishraam karaogi na...<img alt="🥰"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br>Meri manzil ki raah mei tum bhi
+        saath dena chahogi na...<img alt="🫣" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img
+          alt="🌝" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br>Gulshan mei they hazaron ful,
+        par tum apni khusbu failaogi na..<img alt="❤️"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br>Meri a-safalta bhari zindagi
+        mei apni safalta ki kiran laogi na...<img alt="💞"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br>Tum aaogi na....<br><br>Kaafi saalon
+        se intezaar kiya tha tumhara, mujhse aankhein milaogi na....<img alt="🫣"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="💝"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49d/32.png"><br><br><br>Meri pyaar bhari Kuch baaton pr
+        sharmaaogi na...<img alt="🌝" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br>Tairna
+        nahi aata par pyaar ke saagar mei dubna sikhaaogi na...<img alt="🤭"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤪"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92a/32.png"><br><br><br>Inn uljhe hue zulfon mei mai iss
+        qadar kho gaya... Mujhe nikaalne aaogi na...<img alt="🙃"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f643/32.png"><img alt="💙"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f499/32.png"><br><br><br>Chahat se bhi bada h tera dil,
+        Mujhe jagah dilaaogi na...<img alt="🌚" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img
+          alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br>Tum aaogi
+        na...<br><br><br>Mohobbat ke iss safar m tum saath nibhaaogi na...<img alt="🙂"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f642/32.png"><img alt="🤭"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br>Kuch samay baad mujhe bhulkr to nahi
+        chali jaogi na...<img alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br>Taswwer
+        kab tak dekhkar intezaar krunga tumhara, khud Milne aaogi na...<img alt="😁"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f601/32.png"><img alt="😉"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Tumhari muskan dekhne ke liye tadap
+        rhe hum, mulaqaat karwaogi na...<img alt="😇"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f607/32.png"><img alt="🫣"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="💗"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f497/32.png"><br><br><br>Tum aaogi
+        na...<br><br><br><br>Zaalim duniya ke beech rehke, tum hamesha mujhe khush rekhne ka wada krogi na...<img
+          alt="❤️" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br>Ek sawaal bolkr hum
+        itna kuch puch gye hum, jawaab dene ka ichha jataogi na....<img alt="♥️"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2665_fe0f/32.png"><img alt="💙"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f499/32.png"><img alt="🌚"
+          src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br>Der se hi sahi, par tum meri Iss
+        duniya mei aaogi na...<img alt="😅" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f605/32.png"><img
+          alt="😌" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60c/32.png"><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column1">
+      <div class="card" id="cardfirst">
+        <p>28 sept<br><br>Tumhaari gehri aankhon mei tairne ka sapna dekhta hu....(ab yeh mat kehna ki dub
+          jaogi&nbsp;<img alt="🌚" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><img alt="👀"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f440/32.png">)<br><br><br><br>Tujhse mil milkr saath m
+          rehne ki khwaaish jatata hu....(ab to room mei hi rhunga )<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br>Tumhaari ghane zulfon mei kho
+          jaane ki talab le baitha hu...<img alt="♥️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2665_fe0f/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br>Tumhaari raahat bhari baahon
+          mei, khudko dhundta hu...<img alt="💖" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f496/32.png"><img
+            alt="💕" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br>Tumhaari pyaari muskaan
+          se nashe kar leta hu....<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img
+            alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br>Tumhaare saath har ek pal
+          guzaarna chahta hu...&nbsp;<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img
+            alt="😉" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png">(Raat ho ya din)<br><br>Tumhaari
+          surili awaaz se madhosh ho jaata hu..<img alt="😘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png">.(Although tumse bas 2 baar hi baat Hui
+          h&nbsp;<img alt="😓" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f613/32.png">)<br><br><br>Pta nhi kyu
+          par bas tumse gale milne ke liye taras jaata hu...<img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br>Ab toh sunn lo na Jaan -ae-mann,
+          Tumhaari har dua mei shaamil hone ka awsar chahta hu....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="💘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><br><br><br><br>Pyaar ki iss nigaah mei hum
+          tum me kab dub gye.. ye puch kr hamari pyaar ki ghadi ko dheema nahi Krna chahta...<img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="😘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column2">
+      <div class="card" id="cardlast">
+        <p>11 oct<br><br>Usse dur se dekha tha...<br><br>Ek jhalak aisa laga thaa maano, usse hamesha se dekhte aa rhe
+          they...<img alt="❤️" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br>Aisa laga tha
+          maano... Ayye mann ab sochna band kar, chal milte h pehle&nbsp;<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Hamari pehli mulaakaat thi,<br>Aur
+          ehsaas &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Khwaaish thi meri uske zulfon pr
+          apni ungliyan ferne ki...<img alt="😌"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60c/32.png"><br><br>Maanta hu sharmaa rha tha mai, lekin
+          bhavuk krke unhone wo bhi krwa hi liya...&nbsp;<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br>Hamari pehli mulaakaat thi,<br>Aur
+          ehsaas &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Bageeche mei ghumne ki iccha dikhayi
+          thii humne....<br><br>Unhone bageeche k alawa aur kahi ghumne ka vikalp hi nahi diya....<br><br>Hamari pehli
+          mulaakaat thi,<br>Aur ehsaas &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Aankhon m aankhen daal ke baat kr
+          rhi thi wo, kabhi sharmaa Rahi thi, kabhi muskuraa Rahi thi, aisa lag rha thaa maano hamare liye hi aayi thii
+          wo....&nbsp;<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br>Khwaish thi hamari ki unse gale
+          mile... Unhone haa bolkar apni sehmati dilayi....<br><br>Hume kon kon dekh rha wo &nbsp;idhar udhar dekhkar
+          apne aap ko tasalli dilaayi....<br><br>Fir wo paas akar mujhe apne gale se lagayi....<br><br>Gale se lagate hi
+          bhaavuk hokar usne hume apni agli mulaakat ki sach se waakif karayi....<br><br>Humse Raha nahi gya aur humne
+          bhi bas keh daala, bas kr pagli ab mujhe bhi rulaegi??...<br><br>Hamari pehli mulaakaat thi,<br>Aur ehsaas
+          &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Maano aisa lag rha tha ki unhone
+          hamari bhavna samajh kar, unhone apne aap ko mere hawale kar diya ho....<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br>Mai shuruat mei ghabraya, fir pure
+          maahaul ko samajhte hue maine unhe sambhala, aur fir acche se kaskar pakad liyaa, maano mera dil keh raha thaa
+          unhe khona mat....<img alt="🥰" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br>Hamari pehli mulaakaat thi,<br>Aur
+          ehsaas &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Khwaaish thi meri uske zulfon pr
+          apni ungliyan ferne ki...<img alt="😌"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60c/32.png"><br><br>Maanta hu mai sharmaa rha tha par
+          unhone apne aap ko emotional krke wo bhi krwa liya...&nbsp;<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br>Hamari pehli mulaakaat
+          thi,<br>Aur ehsaas &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Bageeche mei ghumne ki iccha dikhayi
+          thii humne....<br><br>Aur unhone bageeche ke alawa hame koi aur vikalp hi naa diya..<br><br>Hamari pehli
+          mulaakaat thi,<br>Aur ehsaas &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Aankhon m aankhen daal ke baat kr
+          rhi thi wo, kabhi sharmaa Rahi thi, kabhi muskuraa Rahi thi, aisa lag rha thaa maano hamare liye hi aayi thii
+          wo....&nbsp;<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br>Khwaish thi hamari ki unse gale
+          mile... Unhone haa bolkar apni sehmati dilayi....<br><br>Hume kon kon dekh rha wo &nbsp;idhar udhar dekhkar
+          apne aap ko tasalli dilaayi....<br><br>Fir wo paas akar mujhe apne gale se lagayi....<br><br>Gale se lagate hi
+          bhaavuk hokar usne hume apni agli mulaakat ki sach se waakif karayi....<br><br>Humse Raha nahi gya aur humne
+          bhi bas keh daala, bas kr pagli ab mujhe bhi rulaegi kya??...<br><br>Hamari pehli mulaakaat thi,<br>Aur ehsaas
+          &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br><br>Maano aisa lag rha tha ki unhone
+          hamari bhavna samajh kar, apne aap ko mere hawale kar diya ho....<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br>Mai shuruat mei ghabraya, fir pure
+          maahaul ko samajhte hue maine unhe sambhala, aur fir acche se kaskar pakad liyaa, maano mera dil keh raha thaa
+          unhe khona mat....<img alt="🥰" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br>Hamari pehli mulaakaat thi,<br>Aur
+          ehsaas &nbsp;khuch khaas tha....<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><br></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column1">
+      <div class="card" id="cardfirst">
+        <p>2 nov<br><br>Dil ki raahat ho tum...<img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br>Dil ki sukoon ho tum...<img
+            alt="❤️" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br><br>Kya kare
+          hum...<img alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br>Dil tumhare hi baare m
+          sochte h hurdum....<img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br><br>Dil hota h tumse milne
+          ka...<img alt="❣️" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br>Waise mile to kaafi baar h
+          hum...<img alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Par tab bhi
+          lagta h kyu duur h tumse hum ....<img alt="🥲"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f972/32.png"><br><br><br>Lagta h tumse milkar tumhe gale
+          se lagau...<img alt="🫂" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br><br>Lagta h tumhe milkar
+          apni haal chaal batau....<img alt="☺️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/263a_fe0f/32.png"><br><br><br><br>Lagta h tumse milkar
+          tumhaari har ek baat jaanu...<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="😌"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60c/32.png"><br><br><br><br>Lagta h tumse milkar bas
+          tumhaari hi baatein sunta rahu....<img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br><br>Lagta h bas tum mere
+          paas baithi raho....<img alt="🥱"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f971/32.png"><br><br><br>Lagta h tum mujhe dekh kar bas
+          waise hi muskuraati Raho....<img alt="💞" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><img
+            alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br>Lagta h tum mujhe ussi
+          tarah pyaar karo, jaisa bhi tum karti ho....<img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br>Par ab koi upaay bhi to
+          nahi... Siwaaye apne dil ko yeh tasalli dilaane ke<img alt="❤️‍🩹"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f_200d_1fa79/32.png"><br><br><br>ki intezaar ki
+          ghari kabhi khatam nahi hoti mere dost....<img alt="🥲"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f972/32.png"><br><br><br><br>Likhte waqt kyu lag rha h
+          mujhe ki yeh dil aapki khoj mei jis raah par nikla h....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Wo raah aisi nukili cheez se
+          bhari h....<img alt="🥹" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f979/32.png"><br><br><br>Maano
+          jaise anek kaanch ko ek saath niche fek kar tod diya gaya ho....<img alt="❤️‍🩹"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f_200d_1fa79/32.png"><br><br><br><br>Dard bhari
+          iss safar mei Mera saath dogi??...&nbsp;<img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br>Kya tum mere liye inn kaanch
+          ke tukde ko gulaab ke phool ki pankhudiyon mei badal sakogi??<img alt="💫"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f4ab/32.png"><br><br><br><br>Bas ek kaam zaroor karna
+          ...<img alt="😓" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f613/32.png"><br><br><br>Agar ho sake to
+          mujhe yaad zaroor rakhna...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Kya pata isse kisi ki chehre par
+          muskaan rahe...<img alt="😟"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f61f/32.png"><br><br><br><br>Busy raho na agar... To bhi
+          din m ek baar &quot;HI&quot; zaroor bhejna...<img alt="😔"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f614/32.png"><br><br><br>Yaad rakhna kisi ki yaad ho
+          tum....<img alt="🥲" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f972/32.png"><br><br><br>Kisi ki
+          chamak ho tum....<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br>Dur hum rehte h
+          bhale....<img alt="😢" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f622/32.png"><br><br><br><br><br>Par
+          dil k bohot paas ho tum<img alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img
+            alt="💞" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column2">
+      <div class="card" id="cardlast">
+        <p>13 nov<br><br>Subeh hoti h tere se...<img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="💘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><br><br><br>Shaam hoti h tere se...<img
+            alt="🥰" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br><br>Dukh hota hai, jab
+          naaraz hoti ho mere se....<img alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img
+            alt="👉" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="💓"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f493/32.png"><br><br><br><br>Pyaar aata hai hume kitna,
+          kaise jataye hum tumse....<img alt="😉" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><img
+            alt="🫣" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br><br>Khush dekhna chahta hu
+          hamesha, kaise batau mai tumse....<img alt="😍"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60d/32.png"><img alt="🤩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f929/32.png"><br><br><br><br>Yaad aati ho, kaise batau
+          mai tumhe....<img alt="🫂" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br>Hume khush krne k liye kal
+          maaf krdia tha, ye maloom hai mujhe....<img alt="🙂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f642/32.png"><br><br><br>Ab sach mei bhi apnaa lo na, kab
+          tak roothi rahogi apni cute si jaan se...<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br>Tumse kitni mohabbat kii
+          hai, shayad yeh to jaanti hogi na tu....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="💘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><br><br><br><br>Pta h mujhe abhi bhi udaas
+          ho tum uss baat par ....<img alt="🥲"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f972/32.png"><br><br><br>Kab tak apne iss pyaare se jaan
+          se roothi rahogi, meri pyaari chetana&nbsp;<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Accha...<br><br><br>Ab maan bhi
+          jaao, naaraz nhi dekh sakte aapko hum...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Meri pyaari, dil ke bohot kareeb
+          chetana, pata hai tujhe??<img alt="🫣" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img
+            alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png">&nbsp;Kitna bura lagta hai jab
+          aapke dil mei jo rhta ho wo aapse naaraz ho to...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png">&nbsp;Aapse him kuch nahi chhupaenge,
+          suno to sahi....<img alt="❤️" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img
+            alt="💘" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><br>Accha jis khubsoorat aankhon se
+          ye humara haal-ae-dil se waakif ho rhi ho<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png">, kya ussi aankhon se humaari tasweer
+          dekhkar, ek acchi si muskaan laogi apne chehre par??<img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br>Aapse pyaar hai mujhe... Hum aapke
+          raaste mei hindrance nahi Banna chahte<img alt="😌"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60c/32.png">... Hum aapke saath ussi raaste par chalna
+          chahte hai taaki jab aap pareshaan ho, hum aapko manaye... Jab aap hume yaad karein, hum aapko gale se
+          lagaye... Jab aapko hamare shoulders par Sona ho, to aapko apni baahon m bharkar sulaayein....&nbsp;<img
+            alt="🫂" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png">....<br><br>Hume yaad hai Pyaari si chamak
+          aapke chehre par...<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br>Kaafi waqt se apni tasweer nahi
+          bheji ho, kya aaj uss chamak se fir waakif karwaogi hume??<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="column1">
+      <div class="card" id="cardfirst">
+        <p>15 nov<br><br>Humare Khwaabon ki raajkumari ho tum, Mujhe apne khwaabon ka rajkumaar bana lo na...<img
+            alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br><br><br>Pyaari ho tum, mujhe
+          apne pyaar ki Mausam bana lo Naa&nbsp;<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br>Dhundta hai ye nazar har
+          waqt tujhe, tum mere paas aa jao na<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><br><br><br><br>Dost maanti ho na tum, mujhe
+          apne dosti ki nishaani bana lo na&nbsp;<img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br><br>Dil mei apne rakhi ho na
+          mujhe, mujhe apni hifaazat bana lo Naa ho&nbsp;<img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br><br>Jinn pyaari nazaron se padh
+          rahi ho, mujhe unme basa lo naaa...&nbsp;<img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br><br><br><br>Wada karo aakhir
+          tum humse, jab bhi yaad karogi mujhe call karogi naaaa...&nbsp;<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br>Pyaar karti ho to, mujhe
+          apne paas apne dil m hamesha rakhogiii na..&nbsp;<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br><br><br><br>Jab hum
+          pareshaani mei ulajh jaatein hai, tum hume usse madad karne aaogi na...&nbsp;<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="💓"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f493/32.png"><img alt="💓"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f493/32.png"><br><br><br><br><br>Hasti to humare saath hi
+          ho, mujhe apne sukh aur dukh kaa saathi banaogiii na...&nbsp;<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br>_____________________________<br><br><br>I
+          love you meri pyaari chetana<img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><img alt="💘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><br><br><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column2">
+      <div class="card" id="cardlast">
+        <p>17 nov<br><br>Pata nai aapke khwaabon mei aane ka dwaar band kyuu thaa&nbsp;<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Humne aapko apne aaishiyaane
+          mei bulaya thaa....<img alt="🫣" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br><br><br>Bohot sharmaaa Rahi thi
+          tum....<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br><br><br>Aapko
+          humne pyaar se waaqif karaya thaa&nbsp;<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><br><br><br><br><br><br>Accha suno na
+          mehbooba, ek baat pucchu kya?<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br><br>Raat ko sapne mei, milne
+          humse akele aayi thiii na....<img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br><br><br>Mujhe abhi bhi yaad hai,
+          apne aankhon se meri hoton ko itne pyaar se dekh rahi thii na...&nbsp;<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="😘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><br><br><br><br><br><br>Mujhe apne paas
+          khinch kar, mujhe apne paas bulana chahti thii na...&nbsp;<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br>Aapse lipat kar soyein they hum
+          kal Puri raat...<img alt="🫣" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br>Aapko takleef to nai Hui
+          thii na...&nbsp;<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br><br>Aap par humne khub pyaar
+          jataya thaaa kal, aapko maza to aaya thaa na&nbsp;<img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br><br>Humare kitne haseen hai na
+          har pal, kabhi sochne ka prayas kiya hai kyuu&nbsp;<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br><br><br>Kyuki usme ek pyaara sa
+          cute sa kaafi Sundar si aur bohot khoobsurat jaaan hai meri ek aur sirf ek&nbsp;<img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="😘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><br><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="row">
+    <div class="column1">
+      <div class="card" id="cardfirst">
+        <p>1 dec<br><br><br>Haan mehsoos nahi hota, par Bohot kareeb ho tum,<img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><br><br><br>Haa dikhti to nahi, par mere
+          paas ho tum....<img alt="😖" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f616/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br><br>Haan saath mere nahi ho,
+          par meri parchhayi ho tum....<img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br>Haan mehsoos nahi hota, par
+          Bohot kareeb ho tum...<img alt="💕" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img
+            alt="💕" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br>Haan bolti kam ho, par
+          mere dil ki awaaz ho tum ....<img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br><br><br>Haan mehsoos nahi
+          hota, par har waqt mere paas ho tum....<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br><br><br><br>Haaan pareshaan ho tum,
+          par humare aashiyaane ki maalkin ho tum....<img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="😌"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60c/32.png"><br><br><br><br>Jo bhi kaho, par mere dil
+          waale taale ki chabhi ho tum....<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br><br>Accha suno na, thak gyiii
+          hogi na pure din ke kaam se ....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Mere kandhe par sir rakhkar
+          aaram karogi kya??<img alt="🥰" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br><br><br><br><br><br>Aankhe
+          thak gyii hongi, thodi der band karke, humare saath pyaar ke andhere mei rehna chahogi kya??<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br><br><br><br>Pura andhera hoga,
+          paas tere mai rahunga, haathon m haath rhegi, aur humare beech isss karakti thand mei pyaar ki garmi hogi, hum
+          ek dusre mei wyast honge, aur khub saari paheliyan suljhaayeinge<br><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br>Haath thak gye honge, tumhare
+          haathon ko mere haathon me daalkar, mujhe sambhaalne ka mauka dogi kya??<img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br><br>Mere seene par apna sir
+          rakhkar &nbsp;aaram farmaaogi kya??<img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br>Mai to aapke liye pura ruka
+          hua, aap mujhe apnaaogi kyaa??<img alt="👀"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f440/32.png"><img alt="😶‍🌫️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f636_200d_1f32b_fe0f/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Kaho Naa, mujhe apnaaogi
+          kya???<img alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><br><br><br><br>Kaho Naa tumhe saare ladko
+          mei sabse pyaara mai hi lagta hu....<img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br>Kaho Naa tumhare saath m
+          chalne ka haqq sirf mera hi hai....<img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br><br>Kaho naa sabse zyada sexy
+          tujhe mai hi lagta hu....<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img
+            alt="🌚" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br><br>Kaho Naa tujhe
+          manane wala bas mai hi hu....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="😖"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f616/32.png"><br><br><br><br>Kaho Naa mujhe apne kitna
+          paas rakhogi tum.....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br>Kaho Naa tumhara dil bas
+          mere paas hai....&nbsp;<img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br><br><br>Kaho na sabse zyada
+          excite tu mere presence se hoti hai....<img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br><br>Itne sawaalon ke daur mei bas
+          jawaab saccche mann se dena&nbsp;<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Kaho na unn tamaam saare
+          aawaazon mei, tumhe sabse zyada sukoon mere awaaz se hi milti hai ....&nbsp;<img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br><br><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="😣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f623/32.png"><img alt="😖"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f616/32.png"><img alt="😘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><img alt="😘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><img alt="😘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><br><br><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column2">
+      <div class="card" id="cardlast">
+        <p>6 Dec<br><br><br>Bina tumhare sunnata saa chhaa jata hai....<img alt="🥲"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f972/32.png"><img alt="🥲"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f972/32.png"><br><br><br>Bina tere akela sa mehsoos hota
+          hai ...<img alt="❤️" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br><br><br><br>Bina tere udaasi chhaa
+          jaati hai.....<img alt="👉" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br>Naaraz na Hoya Karo, dil
+          m tez dhak-dhak hone lagta hai....<img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="💖"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f496/32.png"><br><br><br><br>Pareshaan naa Hoya Karo, dil
+          m ajeeb si halchal hoti hai....<img alt="😞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f61e/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br><br>Subeh utthte hi
+          pehli khyaal ho tum...<img alt="💖" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f496/32.png"><img
+            alt="💞" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br><br>Meri dhadkane
+          chalne ki wajah ho tum...<img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="💘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br><br><br>Duur jaane ke khyaal
+          se hi, pareshaan ho jata hu mai....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><br><br><br><br><br>Paas aane ke khyaal se
+          hi khush ho jata hu mai...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br>Heera feeka hai tumhare
+          saamne, itni anmol ho tum...<img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br><br><br><br>Kaho na paas aakar kahi
+          duur to nahi jaogi na tum.....<img alt="😞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f61e/32.png"><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br>Tumhaare saamne aate hi,
+          saari akad chali jaati hai...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br>Kaano mei kabhi kabhi
+          tumhari meethi awaaz sunai de jaati hai...<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br>Tum paas bulaati ho mujhe
+          &nbsp;aise ahsaas ho aata hai....<img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br><br><br>Pata nahi kyu hai tumse
+          itni mohobbat....<img alt="❤️" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img
+            alt="💕" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="💘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br>Yaad hai, bola thaa tune
+          kabhi hamari baatein band nahi hongi....<img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="😭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f62d/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Yaad hai kaha thaa aapne,
+          kabhi hum dosti nahi todenge....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Kahi dil badal to nahi logo
+          na ....<img alt="❤️" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="💘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><br><br><br><br><br>Chalo, kabhi badal bhii
+          liya to mujhe sach sach bataogi na....<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="😞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f61e/32.png"><br><br><br><br><br><br>Chalo kabhi chhor
+          bhi gyii agar tum, kabhi khyaal karke humaara dukhi to nahi hogi Naa tum....<img alt="😞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f61e/32.png"><br><br><br><br>Hume yaad karke bhii khush
+          ho jaogi pakka tum...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Mat chahna mujhe, mai
+          tumhari feelings ke saath zabardasti nhi Krna chahta ....<br><br><br>Par yaadein jab aayengi to hume yaad
+          zaroor karna tum...<img alt="😞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f61e/32.png"><br><br><br><br>Ek saksh thaa, kaafi cute
+          sii hasi thii, hamesha khush rakhne ki koshish karta thaa wo, uske paas rehne ki ehsaas se hi tum khush
+          hojaati thii, aesa ladka thaa jo tere liye ro jaata thaa&nbsp;<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="💞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f49e/32.png"><br><br><br><br>Yaad rakhna, tumse pyaar hua
+          h hume, tumhaari aankhon se, tumhari pyaari si hasi se, tumhare mehsoos se, tumhaari aawaz se, tumhari saanson
+          se, tumhaare bas mere saath hone k ahsaas se, tumhaare andaaz se....<img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="💘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f498/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Kya karun mai, dil hai ki
+          maanta hi nahi...<img alt="😭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f62d/32.png"><br><br><br><br><br>Subeh subeh saari
+          bhaawnaayein yun nikal aati hai....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br>Khyaal aata h tum paas
+          hoti to kya waqt hoti, hamari bhaawnayon ko tum kaash mehsoos kar paati...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="😞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f61e/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="row">
+    <div class="column1">
+      <div class="card" id="cardfirst">
+        <p>8 dec<br><br><br>Dil m har ek baat ko chhupaya hai, Aaj baat krne ki izazaat dogi kya??...<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br>Apni pyaari zulfon se khelne ki
+          izazaat dogi kya??....<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img
+            alt="🫣" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><br><br><br>Mujhse dheemi awaaz mei
+          kuch Ishq zaahir karogi kya???<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br>Pyaar aata hai bohot aap par,
+          iss baat par bharosa kar paogi kya???...<img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br><br>Aaj ki raat apni Ishq ki
+          ras-bhari daastan bayaan kar paogi kya??...<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br><br>Aapke vaaste humne itna kuch
+          likha h, Aaj sunane ki izazaat dogi kya??...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><br><br><br>Aaine mei apne aap ko dekhta
+          hun, aapki jhalak bhi dikh jaati hai, wajah bataogi kya??...<img alt="😉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f609/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><br><br><br>Kisi jagah akela hota hu, to
+          mere paas aakar mujhpar apni pyaar barsaaogi kya??...<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Bageeche mei hazaron ful hote
+          hai, par unn sab mei sabse zyada hume aapki khusboo madhosh kar jaati hai, wajah bataogi kya??...<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><br><br><br>Har raat ko aapke baare m sochta
+          hai dil, iski wajah bataogi kya??....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br>Dil mera kis qadar dhadakta
+          hai aapko sochkar, mujhe bataogi kya??...<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br>Kaafi kuch jaanti ho mere baare
+          mei, apne dil se puchkar mujhe bataogi kya??<img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br>Alfaaz khatam nai hone waale
+          aapke baare m likhte likhte, itni pyaari nazaron se hamesha hi meri dil ki daastaan padhogi kya??...<img
+            alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br><br>Zaroori nahi lamhe khaas
+          banane ke liye kisi khaas din ka intezaar kiya jaaye, aaj ki raat sajane ki izazaat dogi kya?...<img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br><br>Aapke paas aakar aapko
+          mehsoos karne ki izazaat dogi kya??...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><br><br><br><br>Mere seene par apna sir
+          rakhkar, aaram mehsoos karna chahogi kya??...<img alt="🫣"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fae3/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br><br>Mere bajuon ko pakadkar,
+          mujhse baatein karna chahogi kya??....<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Meri aankhon mei aankhein
+          daalkar, kisi anokhi duniyaa mei kho jaana chahogi kya??...<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><br><br><br>Maanta hu hamesha hi tumhe pyaar
+          karta rehta hu, mere pyaar se bore to nahi ho jaogi na??....<img alt="😞"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f61e/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Mere se baatein kar kuch
+          khufiyaa cheezein Jaan na chahogi kya??...<img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br><br>Dil karta hai aapko zor se
+          gale se laga kar rakhu, paas aaogi kya??<img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br><br>Dil karta hai tumhaari
+          pyaari ungliyon ko mehsoos karne kaa, kabhi karwaogi kya??...<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br>Aapko peeche se lambi hug
+          karni hai, kahi duur to nahi bhaagogi na??....<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br><br>Mere saath ek hi bistar par,
+          mujhe apne paas rakhkar soo paogi kyaa??...<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><br><br><br>Itna kuch zaahir kar diya,
+          humare dil ka haal samajh paogi kya??...<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br><br><br><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><img alt="❣️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2763_fe0f/32.png"><br><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="column2">
+      <div class="card" id="cardlast">
+        <p>5 Jan<br><br>Wo pal kuch khaas thaa...<br><br>Shaazish-ae-guzaaarish mei hui kuch haseen si daastan
+          thii....<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br>&quot;Pyaar karti hu
+          tujhse&quot; keh kar humein apne aur paas bulaayi thii...<img alt="🌚"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br>Haayee, aapka wo sharmaana, aur
+          sharmaa kar mere baahon m gir jaana, mujhe aapke aur kareeb le aati thii...<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="💕"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f495/32.png"><br><br><br><br>Dil mei rakhi huii har baat
+          bata kar mujhe mehfooz karayii thii...<img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br>Wo pal bohot khaas thaa...<br>Wo pal
+          bohot khaas thaa...<br><br><br>Naazuk si Kali ho aap, fir bhii sambhaal leti ho mujhe<img alt="😊"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f60a/32.png"><br><br><br><br>Har dam apne seene se laga
+          kar rakh leti ho mujhe<img alt="🥰" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img
+            alt="🫂" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br><br><br>Sambhalne ki himmat
+          nhii thii khud ko jab mujhe, tumne mere saath milkar mujhe sambhala thaa<img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br>Bhale hii neend nahi aayi humein,
+          par aaram ka ahsaas tumne hi karaya thaa...<img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Wo pal mei bohot kuch khaas
+          thaa....<br>Wo pal mei bohot kuch khaas thaa....<br><br><br>Mere ungliyon ko sehla rahii thii tum...<img
+            alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br>Mere gaalo ko chum Rahi thi
+          tum....<img alt="😘" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br>Pyaar jatate waqt bhaavuk ho
+          gyii thii tum...<img alt="🥰" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br>Wo pal bohot &nbsp;khaas
+          thaa...<br>Wo pal bohot khaas thaa....<br><br>Hasti ho, khilkhilaati ho, jab jab meri baaton par...<img
+            alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br>Kasam se, muskuraati tum ho, par
+          ehsaas mujhe hota thaa, aur bharosa ho jata thaa tumhaare har jazbaaton par...<img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br>Tum paas aayi, aur thoda kareeb aayi
+          mere...<img alt="👉" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="😩"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f629/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Tumne apni aankhein milaayi aur
+          apna banaya mujhe....<img alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img
+            alt="👉" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><br><br><br>Uss waqt batau kaisa laga
+          tha?<br><br><br>Maano bina kalam k hii puri kitaab likh di mere liye&nbsp;<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br>Wo pal bohot khaas thaa...<br>Wo pal
+          bohot khaas thaa...<br><br><br>Woh pal thaaa ek jisme shaazish aapne Kiya thaa, aur khushi hume huii
+          thii....<img alt="🤭" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><br><br><br>Aapne Apni
+          zulfon ko sambhalne ki izazat mujhe dii thii....<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><br><br><br>Gir gyii thii aap mere upar
+          jab...<img alt="🌚" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31a/32.png"><img alt="🌝"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br>Pata hai kaisa laga
+          thaa??<br><br><br>Maano aapne apna pura sansaar mujhe de diya ho sambhaalne ke liye&nbsp;<img alt="👉"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥺"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br>Wo pal bohot khaas thaa...<br>Wo pal
+          bohot khaas thaa...<br><br><br>Aapne apne khayaaalon se, waakif humein karaya thaa....<img alt="🤭"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f92d/32.png"><img alt="😘"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><br><br><br>Aapne apne hooton se mehsoos
+          mujhe karaya thaa....<img alt="😘" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f618/32.png"><img
+            alt="🌝" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f31d/32.png"><br><br><br>Meri kaano mei kuch
+          Raaz kahi thii aapne, yaad hai?<br><br><br>Apna sansaar kehkar, mujhe apne aur kareeb le aaye they aap...<img
+            alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><img alt="🫂"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1fac2/32.png"><br><br>Wo pal bohot khaas thaa...<br>Wo pal
+          bohot khaas thaa...<br><br><br><br>Aapke baare m kabhi shabd khatam nhii ho skte...Jo bhii likhun wo kam
+          hai<img alt="👉" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f449/32.png"><img alt="👈"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f448/32.png"><img alt="🥰"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f970/32.png"><img alt="❤️"
+            src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764_fe0f/32.png"><br><br>Par ek baat puchu kya...<img
+            alt="🥺" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f97a/32.png"><br><br><br>Kya sochti ho mere
+          baare mei?<br><br>Kaisa hu mai??<br><br>Kitna pyaar karti ho mujhse??<br><br>Mujhe batana pls ki kya sochti ho
+          mere baare m !!<img alt="🙃" src="https://fonts.gstatic.com/s/e/notoemoji/15.0/1f643/32.png"><br><br></p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
